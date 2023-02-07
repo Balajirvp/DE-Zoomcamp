@@ -23,6 +23,10 @@ Update the column name lpep_pickup_datetime to tpep_pickup_datetime. Similarly u
 Create a folder "yellow" in the "data" folder in the working dir
 
 Run the command - python parameterized_flow.py 
+
+This should load the parquet data files for Yellow taxi data for Feb. 2019 and March 2019 loaded in GCS
+
+
  
 Answer - 0 5 1 * *
   
