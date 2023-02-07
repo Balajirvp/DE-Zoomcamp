@@ -1,0 +1,13 @@
+Prefect
+
+--1)
+
+
+
+--2)
+
+ prefect deployment build ./etl_web_to_gcs.py:etl_web_to_gcs -n "ETL Job 2" --cron "0 5 1 * *" -a
+ 
+ --3)
+ 
+ 
