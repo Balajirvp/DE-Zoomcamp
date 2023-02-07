@@ -16,7 +16,7 @@ Answer - 0 5 1 * *
  
 --3)
  
-Update parameterized_flow.py file to change the color and months in the main function
+Update "parameterized_flow.py" file to change the color and months in the main function
  
 Update the column name lpep_pickup_datetime to tpep_pickup_datetime. Similarly update lpep_dropoff_datetime to tpep_dropoff_datetime
  
@@ -24,10 +24,10 @@ Create a folder "yellow" in the "data" folder in the working dir
 
 Run the command - python parameterized_flow.py 
 
-This should load the parquet data files for Yellow taxi data for Feb. 2019 and March 2019 loaded in GCS
+This should load the parquet data files for Yellow taxi data for Feb. 2019 and March 2019 into GCS
 
-
+Update the "etl_gcs_to_bq.py" code to make the relevant changes and run the command - python etl_gcs_to_bq.py
  
-Answer - 0 5 1 * *
+Answer - 14,851,920
   
 --4)
