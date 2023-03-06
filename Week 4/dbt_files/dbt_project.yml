@@ -39,3 +39,10 @@ models:
 
 vars:
   payment_type_values: [1, 2, 3, 4, 5, 6]
+
+
+seeds: 
+    ny_taxi_rides:
+        taxi_zone_lookup:
+            +column_types:
+                locationid: numeric
