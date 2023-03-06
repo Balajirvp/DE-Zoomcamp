@@ -3,7 +3,7 @@
 with green_data as (
     select *, 
         'Green' as service_type 
-    from {{ ref('sgt_green_tripdata') }}
+    from {{ ref('stg_green_tripdata') }}
 ), 
 
 yellow_data as (
