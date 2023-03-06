@@ -1,0 +1,12 @@
+# schema.yml
+
+version: 2
+
+sources:
+    - name: staging
+      database: composed-sun-375018
+      schema: trips_data_all
+
+      tables:
+          - name: green_trips
+          - name: yellow_trips
