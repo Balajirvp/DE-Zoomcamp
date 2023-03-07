@@ -2,10 +2,7 @@ version: 2
 
 sources:
     - name: staging
-      #For bigquery:
-      #database: taxi-rides-ny-339813
 
-      # For postgres:
       database: composed-sun-375018
 
       schema: trips_data_all
